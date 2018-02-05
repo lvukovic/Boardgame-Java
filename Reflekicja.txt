@@ -1,0 +1,427 @@
+Varijable u klasi igrac
+Ime
+Oblik
+currentPos
+
+Metode u klasi igrac
+wait
+wait
+wait
+equals
+toString
+hashCode
+getClass
+notify
+notifyAll
+
+METODA: wait
+Metoda ne prima nista
+Metoda vraca: void
+
+METODA: wait
+Metoda prima: 
+long arg0
+int arg1
+Metoda vraca: void
+
+METODA: wait
+Metoda prima: 
+long arg0
+Metoda vraca: void
+
+METODA: equals
+Metoda prima: 
+class java.lang.Object arg0
+Metoda vraca: boolean
+
+METODA: toString
+Metoda ne prima nista
+Metoda vraca: class java.lang.String
+
+METODA: hashCode
+Metoda ne prima nista
+Metoda vraca: int
+
+METODA: getClass
+Metoda ne prima nista
+Metoda vraca: class java.lang.Class
+
+METODA: notify
+Metoda ne prima nista
+Metoda vraca: void
+
+METODA: notifyAll
+Metoda ne prima nista
+Metoda vraca: void
+Varijable u klasi Game
+
+Metode u klasi Game
+
+ METODA: 
+player1Turn
+
+ METODA: 
+Loadaj
+
+ METODA: 
+getPlayer1
+
+ METODA: 
+player2Turn
+
+ METODA: 
+getPlayer2
+
+ METODA: 
+setPlayer1
+
+ METODA: 
+getPloca
+
+ METODA: 
+setIsPlayer1Turn
+
+ METODA: 
+getStatus
+
+ METODA: 
+setPlayer2
+
+ METODA: 
+setPloca
+
+ METODA: 
+getCurrentPlayer
+
+ METODA: 
+isIsPlayer1Turn
+
+ METODA: 
+setStatus
+
+ METODA: 
+setCurrentPlayer
+
+ METODA: 
+wait
+
+ METODA: 
+wait
+
+ METODA: 
+wait
+
+ METODA: 
+equals
+
+ METODA: 
+toString
+
+ METODA: 
+hashCode
+
+ METODA: 
+getClass
+
+ METODA: 
+notify
+
+ METODA: 
+notifyAll
+player1Turn
+Metoda prima: interface java.util.List arg0
+int arg1
+Metoda vraca: void
+
+Loadaj
+Metoda prima: class java2game.Igrac arg0
+class java2game.Igrac arg1
+Metoda vraca: void
+
+getPlayer1
+Metoda ne prima nistaMetoda vraca: class java2game.Igrac
+
+player2Turn
+Metoda prima: interface java.util.List arg0
+int arg1
+Metoda vraca: void
+
+getPlayer2
+Metoda ne prima nistaMetoda vraca: class java2game.Igrac
+
+setPlayer1
+Metoda prima: class java2game.Igrac arg0
+Metoda vraca: void
+
+getPloca
+Metoda ne prima nistaMetoda vraca: class javafx.scene.layout.GridPane
+
+setIsPlayer1Turn
+Metoda prima: boolean arg0
+Metoda vraca: void
+
+getStatus
+Metoda ne prima nistaMetoda vraca: class java2game.GameStatus
+
+setPlayer2
+Metoda prima: class java2game.Igrac arg0
+Metoda vraca: void
+
+setPloca
+Metoda prima: class javafx.scene.layout.GridPane arg0
+Metoda vraca: void
+
+getCurrentPlayer
+Metoda ne prima nistaMetoda vraca: class java2game.Igrac
+
+isIsPlayer1Turn
+Metoda ne prima nistaMetoda vraca: boolean
+
+setStatus
+Metoda prima: class java2game.GameStatus arg0
+Metoda vraca: void
+
+setCurrentPlayer
+Metoda prima: class java2game.Igrac arg0
+Metoda vraca: void
+
+wait
+Metoda ne prima nistaMetoda vraca: void
+
+wait
+Metoda prima: long arg0
+int arg1
+Metoda vraca: void
+
+wait
+Metoda prima: long arg0
+Metoda vraca: void
+
+equals
+Metoda prima: class java.lang.Object arg0
+Metoda vraca: boolean
+
+toString
+Metoda ne prima nistaMetoda vraca: class java.lang.String
+
+hashCode
+Metoda ne prima nistaMetoda vraca: int
+
+getClass
+Metoda ne prima nistaMetoda vraca: class java.lang.Class
+
+notify
+Metoda ne prima nistaMetoda vraca: void
+
+notifyAll
+Metoda ne prima nistaMetoda vraca: void
+
+Varijable u klasi igrac
+Ime
+Oblik
+currentPos
+
+Metode u klasi igrac
+wait
+wait
+wait
+equals
+toString
+hashCode
+getClass
+notify
+notifyAll
+wait
+Metoda ne prima nista
+Metoda vraca: void
+wait
+Metoda prima: 
+long arg0
+int arg1
+Metoda vraca: void
+wait
+Metoda prima: 
+long arg0
+Metoda vraca: void
+equals
+Metoda prima: 
+class java.lang.Object arg0
+Metoda vraca: boolean
+toString
+Metoda ne prima nista
+Metoda vraca: class java.lang.String
+hashCode
+Metoda ne prima nista
+Metoda vraca: int
+getClass
+Metoda ne prima nista
+Metoda vraca: class java.lang.Class
+notify
+Metoda ne prima nista
+Metoda vraca: void
+notifyAll
+Metoda ne prima nista
+Metoda vraca: void
+Varijable u klasi Game
+
+Metode u klasi Game
+
+ METODA: 
+Loadaj
+
+ METODA: 
+player1Turn
+
+ METODA: 
+getPlayer2
+
+ METODA: 
+getPlayer1
+
+ METODA: 
+player2Turn
+
+ METODA: 
+getStatus
+
+ METODA: 
+setIsPlayer1Turn
+
+ METODA: 
+getPloca
+
+ METODA: 
+isIsPlayer1Turn
+
+ METODA: 
+setPlayer2
+
+ METODA: 
+getCurrentPlayer
+
+ METODA: 
+setStatus
+
+ METODA: 
+setPloca
+
+ METODA: 
+setCurrentPlayer
+
+ METODA: 
+setPlayer1
+
+ METODA: 
+wait
+
+ METODA: 
+wait
+
+ METODA: 
+wait
+
+ METODA: 
+equals
+
+ METODA: 
+toString
+
+ METODA: 
+hashCode
+
+ METODA: 
+getClass
+
+ METODA: 
+notify
+
+ METODA: 
+notifyAll
+Loadaj
+Metoda prima: class java2game.Igrac arg0
+class java2game.Igrac arg1
+Metoda vraca: void
+
+player1Turn
+Metoda prima: interface java.util.List arg0
+int arg1
+Metoda vraca: void
+
+getPlayer2
+Metoda ne prima nistaMetoda vraca: class java2game.Igrac
+
+getPlayer1
+Metoda ne prima nistaMetoda vraca: class java2game.Igrac
+
+player2Turn
+Metoda prima: interface java.util.List arg0
+int arg1
+Metoda vraca: void
+
+getStatus
+Metoda ne prima nistaMetoda vraca: class java2game.GameStatus
+
+setIsPlayer1Turn
+Metoda prima: boolean arg0
+Metoda vraca: void
+
+getPloca
+Metoda ne prima nistaMetoda vraca: class javafx.scene.layout.GridPane
+
+isIsPlayer1Turn
+Metoda ne prima nistaMetoda vraca: boolean
+
+setPlayer2
+Metoda prima: class java2game.Igrac arg0
+Metoda vraca: void
+
+getCurrentPlayer
+Metoda ne prima nistaMetoda vraca: class java2game.Igrac
+
+setStatus
+Metoda prima: class java2game.GameStatus arg0
+Metoda vraca: void
+
+setPloca
+Metoda prima: class javafx.scene.layout.GridPane arg0
+Metoda vraca: void
+
+setCurrentPlayer
+Metoda prima: class java2game.Igrac arg0
+Metoda vraca: void
+
+setPlayer1
+Metoda prima: class java2game.Igrac arg0
+Metoda vraca: void
+
+wait
+Metoda ne prima nistaMetoda vraca: void
+
+wait
+Metoda prima: long arg0
+int arg1
+Metoda vraca: void
+
+wait
+Metoda prima: long arg0
+Metoda vraca: void
+
+equals
+Metoda prima: class java.lang.Object arg0
+Metoda vraca: boolean
+
+toString
+Metoda ne prima nistaMetoda vraca: class java.lang.String
+
+hashCode
+Metoda ne prima nistaMetoda vraca: int
+
+getClass
+Metoda ne prima nistaMetoda vraca: class java.lang.Class
+
+notify
+Metoda ne prima nistaMetoda vraca: void
+
+notifyAll
+Metoda ne prima nistaMetoda vraca: void
+
