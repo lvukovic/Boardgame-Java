@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="apMain" prefHeight="463.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="java2game.FXMLDocumentController">
+   <children>
+      <GridPane fx:id="gpBoard" gridLinesVisible="true" layoutX="260.0" layoutY="118.0" prefHeight="300.0" prefWidth="300.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-image: 1.png;" />
+         </children>
+      </GridPane>
+      <TextArea fx:id="msgBox" layoutX="32.0" layoutY="343.0" prefHeight="75.0" prefWidth="200.0" />
+      <Label layoutX="32.0" layoutY="98.0" text="Na potezu je igrac: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBaciKocku" layoutX="32.0" layoutY="139.0" mnemonicParsing="false" onAction="#btnBaciKockuAction" text="Baci kocku">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Button>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="591.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#saveGameAction" text="Save game" />
+                  <MenuItem mnemonicParsing="false" onAction="#loadGameAction" text="Load game" />
+                  <MenuItem fx:id="createInfoFile" mnemonicParsing="false" onAction="#createInfoFile" text="Refleksija" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="77.0" layoutY="41.0" text="ZMIJE I LJESTVE BEZ ZMIJI I LJESTVI" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Calibri Light" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#0dff00" />
+                  <Stop color="#ff0032" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fx:id="imgPrvaKocka" fitHeight="85.0" fitWidth="85.0" layoutX="35.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgDrugaKocka" fitHeight="85.0" fitWidth="85.0" layoutX="145.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnBaciKocku2" layoutX="142.0" layoutY="139.0" mnemonicParsing="false" onAction="#btnBaciKocku2Action" text="Baci kocku">
+         <font>
+            <Font name="Calibri Light" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPomakniSe" layoutX="32.0" layoutY="294.0" mnemonicParsing="false" onAction="#btnPomakniSeAction" prefHeight="38.0" prefWidth="200.0" text="Pomakni se">
+         <font>
+            <Font name="Leelawadee" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tfRezultatKocke1" layoutX="32.0" layoutY="172.0" prefHeight="25.0" prefWidth="26.0" />
+      <TextField fx:id="tfRezultatKocke2" layoutX="143.0" layoutY="172.0" prefHeight="25.0" prefWidth="26.0" />
+      <Button fx:id="btnOsvjezi" layoutX="495.0" layoutY="83.0" mnemonicParsing="false" onAction="#btnOsvjeziAction" text="Osvjezi" />
+      <Button fx:id="btnUnatrag" layoutX="394.0" layoutY="424.0" mnemonicParsing="false" onAction="#btnUnatragAction" text="Unatrag" />
+      <Button fx:id="btnNaprijed" layoutX="485.0" layoutY="424.0" mnemonicParsing="false" onAction="#btnNaprijedAction" text="Naprijed" />
+      <Label fx:id="lblKojiIgrac" layoutX="170.0" layoutY="100.0" prefHeight="21.0" prefWidth="67.0" />
+   </children>
+</AnchorPane>
